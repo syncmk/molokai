@@ -48,9 +48,9 @@ hi DiffAdd                       guibg=#13354A
 hi DiffChange      guifg=#89807D guibg=#4C4745
 hi DiffDelete      guifg=#960050 guibg=#1E0010
 if s:molokai_italic
-  hi DiffText                      guibg=#4C4745 gui=bold
-else
   hi DiffText                      guibg=#4C4745 gui=italic,bold
+else
+  hi DiffText                      guibg=#4C4745 gui=bold
 endif
 
 hi Directory       guifg=#A6E22E               gui=bold
